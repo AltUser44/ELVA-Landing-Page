@@ -42,7 +42,7 @@ export default function Home() {
             <div className="flex items-center gap-2">
               <span className="text-yellow-400 text-2xl">✨</span>
             <h2 className="text-3xl md:text-4xl font-bold text-white ml-2">
-                Coming to Play Store & App Store Soon
+                Coming to App Store & Play Store Soon
             </h2>
             <img src="/appstore.png" alt="App Store" className="h-20 w-32 ml-1" />
             <img src="/playstore.png" alt="Play Store" className="h-20 w-32 ml-1" />
