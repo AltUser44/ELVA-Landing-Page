@@ -57,7 +57,7 @@ export function EmailForm() {
       />
       <Button
         type="submit"
-        className="w-full md:w-auto rounded-full bg-purple-500 hover:bg-purple-600 text-white py-6 px-8"
+        className="w-full md:w-auto rounded-full bg-purple-500 hover:bg-purple-600 text-white py-6 px-8 transition-all duration-200 hover:shadow-lg hover:scale-105"
         disabled={isLoading}
       >
         {isLoading ? "Submitting..." : "Notify Me"}

@@ -59,8 +59,8 @@ export function AnimatedFeatures() {
           }`}
         >
           <div className="bg-purple-100 p-3 rounded-full">{feature.icon}</div>
-          <h3 className="font-semibold mt-2 text-[#2D2A54]">{feature.title}</h3>
-          <p className="text-sm text-gray-600">{feature.description}</p>
+          <h3 className="font-semibold mt-2 text-white">{feature.title}</h3>
+          <p className="text-sm text-white">{feature.description}</p>
         </div>
       ))}
     </div>

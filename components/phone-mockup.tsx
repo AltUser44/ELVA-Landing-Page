@@ -12,14 +12,14 @@ export function PhoneMockup() {
       {/* Phone screen */}
       <div className="w-full h-full bg-purple-100 rounded-[32px] overflow-hidden flex flex-col items-center pt-12 px-4">
         <h2 className="text-xl font-bold text-[#2D2A54]">Welcome to</h2>
-        <h1 className="text-2xl font-bold text-[#2D2A54]">Elva</h1>
-        <p className="text-sm text-gray-700 mt-1">Your lovely virtual assistant</p>
+        <h1 className="text-2xl font-bold text-[#2D2A54]">ΣᄂVΛ</h1>
+        <p className="font-bold text-blue-700 mt-1">Your lovely virtual assistant.</p>
 
         {/* Inner phone mockup */}
         <div className="mt-8 w-[160px] h-[280px] bg-white rounded-[24px] border-2 border-gray-300 overflow-hidden flex flex-col items-center p-4">
-          <ElvaLogo className="w-16 h-16" />
-          <p className="text-xs font-semibold mt-1">Welcome</p>
-          <p className="text-xs">to Elva</p>
+          <ElvaLogo className="w-16 h-30" />
+          <p className="text-xs font-bold text-blue-700 mt-1">Welcome</p>
+          <p className="text-xs font-bold text-blue-700">to ΣᄂVΛ</p>
 
           {/* 3D Male Character */}
           <WavingCharacter />
