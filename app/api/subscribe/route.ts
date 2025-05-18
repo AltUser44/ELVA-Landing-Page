@@ -16,7 +16,7 @@ export async function POST(request: Request) {
     }
 
     const response = await fetch(
-      `https://api.mailerlite.com/api/v2/groups/${GROUP_ID}/subscribers`,
+      `https://connect.mailerlite.com/api/subscribers`,
       {
         method: 'POST',
         headers: {
@@ -25,7 +25,7 @@ export async function POST(request: Request) {
         },
         body: JSON.stringify({
           email: email,
-          resubscribe: true,
+          groups: [GROUP_ID],
         }),
       }
     )

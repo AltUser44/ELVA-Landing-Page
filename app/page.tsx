@@ -22,12 +22,11 @@ export default function Home() {
       {/* Main Content */}
       <div className="relative z-10">
         {/* Header */}
-        <header className="container mx-auto pt-8 px-4 md:px-6">
+        <header className="container mx-auto pt-2 px-4 md:px-6">
           <div className="flex justify-center items-center">
-            <ElvaLogo className="h-40 w-40" />
-            <h1 className="text-4xl md:text-5xl font-bold text-red-200 ml-2">ΣᄂVΛ</h1>
+            <ElvaLogo className="h-80 w-80" />
           </div>
-          <div className="text-center font-bold text-xl md:text-2xl text-white mt-2 h-8">
+          <div className="text-center font-bold text-xl md:text-2xl text-white mt-0 h-8">
             <TypewriterText text="Your lovely virtual assistant." />
           </div>
         </header>
